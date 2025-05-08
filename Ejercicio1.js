@@ -1,12 +1,13 @@
-function contrasenaValida() {
-    let contrasena = prompt ("Escriba la contraseña")
-    let contrasena2 = "2Fj(jjbFsuj"
-    let contrasena3 = "eoZiugBf&g9"
-
-    if (contrasena == contrasena2 || contrasena == contrasena3) {
-        console.log("true")
-    } else {
-        console.log("false")
+const contrasena = "2Fj(jjbFsuj";
+const contrasena2 = "eoZiugBf&g9";
+function contrasenaValida(texto) {
+    if(texto == contrasena || texto == contrasena2) {
+        return true;
+    }else{
+        return false;
     }
 }
-contrasenaValida();
+console.log(contrasenaValida("2Fj(jjbFsuj")) 
+console.log(contrasenaValida("eoZiugBf&g9")) 
+console.log(contrasenaValida("hola")) 
+console.log(contrasenaValida(""))
