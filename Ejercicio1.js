@@ -1,5 +1,5 @@
-let contrasena = prompt ("Escriba la contraseña")
 function contrasenaValida() {
+    let contrasena = prompt ("Escriba la contraseña")
     let contrasena2 = "2Fj(jjbFsuj"
     let contrasena3 = "eoZiugBf&g9"
 
